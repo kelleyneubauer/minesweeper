@@ -63,7 +63,7 @@ OBJ += MinesweeperDisplay.o
 # Create Executable File
 #
 ${PROJ}: ${OBJ} ${HEADER}
-	${CXX} ${LDFLAGS} ${OBJ} -o ${PROJ}
+	${CXX} ${OBJ} ${LDFLAGS} -o ${PROJ}
 
 #
 # Create Object Files
