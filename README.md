@@ -17,6 +17,9 @@ Minesweeper for your terminal with ncurses GUI interface!
 3. Run with `./minesweeper`
 4. Clean up using `make clean`
 
+
+*Note: The terminal window must be large enough to display the menu and the game. There is no error checking for console size at this time. If output is cut off, stop the game, resize your window, and try again.*
+
 ---
 
 **How to play:**
