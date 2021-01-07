@@ -36,6 +36,7 @@ MinesweeperDisplay::MinesweeperDisplay(int rows, int cols)
 	bottomBorder = 1;
 	leftBorder = 2;
 	rightBorder = 1;
+	rowDisplayOffset = 0;
 	colDisplayOffset = 2;
 	
 	// start ncurses mode
