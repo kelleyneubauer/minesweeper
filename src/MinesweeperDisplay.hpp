@@ -36,7 +36,7 @@ class MinesweeperDisplay
 		int rows, cols;
 		int leftBorder, rightBorder, topBorder, bottomBorder;
 		int rowDisplayOffset, colDisplayOffset;	
-		int row, col, ch, cursorRow, cursorCol;
+		int cursorRow, cursorCol;
 		WINDOW *gameBoardWin, *timerWin, *flagsWin, *gameMessageWin;
 		std::mutex displayMtx;
 };
