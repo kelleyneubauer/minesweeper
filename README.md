@@ -2,7 +2,7 @@
 
 ### Kelley Neubauer
 
-Play minesweeper in your terminal with ncurses GUI interface!
+Minesweeper for your terminal with ncurses GUI interface!
 
 <img src="/img/minesweeper_gameplay.png" width="600">
 
@@ -21,7 +21,7 @@ Play minesweeper in your terminal with ncurses GUI interface!
 
 **How to play:**
 
-- Navigate with arrow or vim `h` `j` `k ` `l` keys
+- Navigate with arrow or vim `h` `j` `k` `l` keys
 - `g` - reveal selected
 - `r` - reveal random
 - `f` - flag selected
@@ -36,6 +36,7 @@ Play minesweeper in your terminal with ncurses GUI interface!
 ---
 
 **AI Solver:**
+
 <img src="/img/minesweeper_solver.gif" width="600">
 
 ---
@@ -52,3 +53,5 @@ Play minesweeper in your terminal with ncurses GUI interface!
 - [ ] improve solver algorithm to work for multi-cell solutions
 - [ ] save high score (fastest time for each level)
 - [ ] keep session and all-time win/ loss stats 
+- [x] add multithreading for timer
+
