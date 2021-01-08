@@ -48,7 +48,7 @@ Minesweeper for your terminal with ncurses GUI interface!
 * There may be some minor formatting issues on different systems: 
   * The console window must be wide enough to display the game. If the game is cut off, stop the repl, resize the window, and try again.
   * If the help menu message is cut off and stuck, hit enter to return to the game.
-* Ncurses is *not* thread safe. I've attempted to make it so by moderating access to display output, but there may be some minor glitches.
+* It was a fun multithreading exercise to get the concurrent timer working but ncurses is *not* thread safe. I've attempted to make it so by moderating access to display output, but there may be some minor glitches. 
 
 ---
 
