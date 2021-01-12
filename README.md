@@ -25,6 +25,7 @@ Features:
 3. Run with `./minesweeper`
 4. Clean up using `make clean`
 
+<img src="/img/minesweeper_title.png" width="400">
 
 *Note: The terminal window must be large enough to display the menu and the game. There is no error checking for console size at this time. If output is cut off, stop the game, resize your window, and try again.*
 
@@ -44,9 +45,7 @@ Features:
 - `?` - help menu
 - `q` - quit
 
----
-
-<img src="/img/minesweeper_title.png" width="400">
+<img src="/img/minesweeper_gameplay.png" width="400">
 
 ---
 
@@ -55,10 +54,6 @@ Features:
   * The console window must be wide enough to display the game. If the game is cut off, stop the repl, resize the window, and try again.
   * If the help menu message is cut off and stuck, hit enter to return to the game.
 * It was a fun multithreading exercise to get the concurrent timer working but ncurses is *not* thread safe. I've attempted to make it so by moderating access to display output, but there may be some minor glitches.
-
----
-
-<img src="/img/minesweeper_gameplay.png" width="400">
 
 ---
 
