@@ -4,9 +4,9 @@
 
 Minesweeper for your terminal with ncurses GUI interface!
 
-[Play on repli.it!](https://repl.it/@kelleyneubauer/minesweeper)
-
 <img src="/img/minesweeper_title.png" width="300">
+
+[Play on repli.it!](https://repl.it/@kelleyneubauer/minesweeper)
 
 Features: 
 - Multithreaded to run timer and accept user input concurrently
