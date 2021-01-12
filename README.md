@@ -10,7 +10,8 @@ Minesweeper for your terminal with ncurses GUI interface!
 
 ---
 
-Features: 
+**Features:**
+
 - Multithreaded to run timer and accept user input concurrently
 - Basic AI to play and solve game
 - Random cell selector
