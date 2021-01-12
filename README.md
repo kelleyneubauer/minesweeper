@@ -20,12 +20,12 @@ Features:
 
 **Running the game:**
 
+<img src="/img/minesweeper_title.png" width="400">
+
 1. Navigate to src folder `cd src`
 2. Compile using `make` && 
 3. Run with `./minesweeper`
 4. Clean up using `make clean`
-
-<img src="/img/minesweeper_title.png" width="400">
 
 *Note: The terminal window must be large enough to display the menu and the game. There is no error checking for console size at this time. If output is cut off, stop the game, resize your window, and try again.*
 
