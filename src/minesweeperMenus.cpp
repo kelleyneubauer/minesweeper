@@ -58,7 +58,10 @@ MenuChoice mainMenu()
 	int gameTitleHeight = 8;
 	int gameTitleWidth = 57;
 	int gameTitleStarty = 0;
-	int gameTitleStartx = 0;
+	// center the menu using terminal window size
+	int winMaxx = getmaxx(stdscr);
+	int gameTitleStartx = winMaxx / 2 - gameTitleWidth / 2;
+	if (gameTitleStartx < 0) {gameTitleStartx = 0;}
 	
 	int gameMenuHeight = 7;
 	int gameMenuWidth = gameTitleWidth;

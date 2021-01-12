@@ -49,7 +49,10 @@ MinesweeperDisplay::MinesweeperDisplay(int rows, int cols)
 	int gameBoardWinWidth = (cols * colDisplayOffset) 
 									+ leftBorder + rightBorder;
 	int gameBoardWinStarty = 0;
-	int gameBoardWinStartx = 0;
+	// center the board using terminal window size
+	int winMaxx = getmaxx(stdscr);
+	int gameBoardWinStartx = winMaxx / 2 - gameBoardWinWidth / 2;
+	if (gameBoardWinStartx < 0) {gameBoardWinStartx = 0;}
 	this->gameBoardWin = newwin(gameBoardWinHeight, gameBoardWinWidth, 
 							gameBoardWinStarty, gameBoardWinStartx);
 	keypad(gameBoardWin, true);
@@ -67,7 +70,7 @@ MinesweeperDisplay::MinesweeperDisplay(int rows, int cols)
 	int timerWinHeight = 1;
 	int timerWinWidth = 5;
 	int timerWinStarty = gameBoardWinStarty + gameBoardWinHeight;
-	int timerWinStartx = gameBoardWinWidth - timerWinWidth;
+	int timerWinStartx = gameBoardWinStartx + gameBoardWinWidth - timerWinWidth;
 	this->timerWin = newwin(timerWinHeight, timerWinWidth, timerWinStarty, 
 								timerWinStartx);
 
