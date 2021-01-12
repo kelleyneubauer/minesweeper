@@ -44,9 +44,6 @@ Features:
 
 ---
 
-**Gameplay & AI Solver demo:**
-
-<img src="/img/minesweeper_gameplay_ai_demo.gif" width="400">
 <img src="/img/minesweeper_gameplay.png" width="600">
 
 ---
@@ -64,4 +61,3 @@ Features:
 - [ ] save high score (fastest time for each level)
 - [ ] keep session and all-time win/ loss stats 
 - [x] add multithreading for timer
-
