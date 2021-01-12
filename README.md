@@ -38,9 +38,9 @@ Minesweeper for your terminal with ncurses GUI interface!
 
 ---
 
-**AI Solver:**
+**Gameplay & AI Solver demo:**
 
-<img src="/img/minesweeper_solver.gif" width="600">
+<img src="/img/minesweeper_gameplay_ai_demo.gif" width="400">
 
 ---
 
