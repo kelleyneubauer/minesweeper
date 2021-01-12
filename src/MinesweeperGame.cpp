@@ -127,7 +127,8 @@ void MinesweeperGame::startGame()
 				gameDisplay->printFlags(gameBoard->getFlagsRemaining());
 				break;
 			case 's':		// solve puzzle
-				gameDisplay->printGameMessage("Computer will attempt to solve puzzle");
+				gameDisplay->printGameMessage(
+							"Computer will attempt to solve puzzle");
 				gameBoard->clearFlags();
 				while (getGameState() == PENDING) {
 					if (!gameBoard->solvePuzzle()) {
