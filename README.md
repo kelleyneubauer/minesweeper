@@ -4,9 +4,15 @@
 
 Minesweeper for your terminal with ncurses GUI interface!
 
-<img src="/img/minesweeper_gameplay.png" width="600">
-
 [Play on repli.it!](https://repl.it/@kelleyneubauer/minesweeper)
+
+<img src="/img/minesweeper_gameplay_ai_demo.gif" width="300">
+
+Features: 
+- Multithreaded to run timer and accept user input concurrently
+- Basic AI to play and solve game
+- Random cell selector
+- Flag checker
 
 ---
 
@@ -41,6 +47,7 @@ Minesweeper for your terminal with ncurses GUI interface!
 **Gameplay & AI Solver demo:**
 
 <img src="/img/minesweeper_gameplay_ai_demo.gif" width="400">
+<img src="/img/minesweeper_gameplay.png" width="600">
 
 ---
 
