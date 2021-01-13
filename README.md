@@ -4,7 +4,7 @@
 
 Minesweeper for your terminal with ncurses GUI interface!
 
-<img src="/img/minesweeper_gameplay_ai_demo.gif" width="300">
+<img src="/img/minesweeper_gameplay_ai_demo.gif" width="400">
 
 [Play on repli.it!](https://repl.it/@kelleyneubauer/minesweeper)
 
