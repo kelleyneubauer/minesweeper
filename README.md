@@ -2,7 +2,7 @@
 
 ### Kelley Neubauer
 
-Minesweeper for your terminal with ncurses GUI interface!
+Minesweeper for your terminal with ncurses GUI interface
 
 <img src="/img/minesweeper_gameplay_ai_demo.gif" width="400">
 
